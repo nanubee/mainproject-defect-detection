@@ -9,17 +9,22 @@ This project aims to automate the visual inspection of automotive components usi
 Manual defect inspection in automotive manufacturing is time-consuming, inconsistent, and prone to human error. Traditional machine vision methods struggle with variations in lighting, surface texture, and defect patterns.
 This project seeks to build a scalable and accurate AI-based defect detection system capable of classifying multiple defect types while providing interpretable visual explanations for each prediction.
 
-## Project File Structure
+# 📂 Project File Structure
 
-data/        # Dataset (samples, splits)
-notebooks/   # Jupyter/Colab workflows
-src/         # Main source code (models, training, preprocessing)
-models/      # Model weights (ignored in Git)
-results/     # Logs, metrics, outputs
-figures/     # Plots and visualizations
-docs/        # Documentation
-scripts/     # Utility scripts
+For quick reference, here is an overview of the main directories in this project:
 
+| Directory | Description |
+| :--- | :--- |
+| `data/` | **Dataset** files (raw samples, prepared splits, etc.) |
+| `notebooks/` | **Jupyter/Colab workflows** for experimentation and exploration. |
+| `src/` | **Main source code** (modules for models, training, preprocessing, etc.). |
+| `models/` | Trained **model weights** and checkpoints. *(Typically ignored by Git)* |
+| `results/` | **Logs, metrics, and outputs** from training and evaluation runs. |
+| `figures/` | **Plots and visualizations** generated during analysis. |
+| `docs/` | Project **documentation** (e.g., usage guides, API reference). |
+| `scripts/` | **Utility scripts** for setup, data tasks, or automation. |
+
+---
 
 ## Dataset Access
 
