@@ -1,1 +1,30 @@
-"__pycache__/" 
+# Python bytecode 
+__pycache__/ 
+*.py[cod] 
+ECHO is on.
+# Virtual environments 
+venv/ 
+.env 
+ECHO is on.
+# Jupyter notebooks 
+.ipynb_checkpoints/ 
+ECHO is on.
+# ML artifacts 
+*.pth 
+*.pt 
+*.ckpt 
+runs/ 
+logs/ 
+checkpoints/ 
+ECHO is on.
+# Data 
+data/raw/ 
+data/processed/ 
+ECHO is on.
+# OS files 
+.DS_Store 
+Thumbs.db 
+ECHO is on.
+# IDE settings 
+.vscode/ 
+.idea/ 
